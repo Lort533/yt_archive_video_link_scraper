@@ -11,7 +11,7 @@ for link in link_list:
             target_links[int(link[2])] = []
         target_links[int(link[2])].append(link)
 
-blocked_links = ["http://www.myspace.com/"]
+#blocked_links = ["http://www.myspace.com/"]
 
 found_links = json.load(open('scraped_links.json'))
 rate_limit = int(input("Please input your rate limit in seconds (0 for none): "))
